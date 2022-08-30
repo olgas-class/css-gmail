@@ -1,0 +1,57 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COMMON */
+.background {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+/* Header top */
+.header-top {
+    height: 80px;
+    line-height: 80px;
+}
+
+#logo {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-top span {
+    vertical-align: middle;
+}
+
+/* Header bottom */
+.header-bottom {
+    padding: 1em 0;
+}
+
+.counter {
+    display: inline-block;
+    background-color: orange;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
